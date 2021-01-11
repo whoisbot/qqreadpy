@@ -3,7 +3,7 @@ name: additional
 on:
   workflow_dispatch:
   schedule:
-    - cron: '*/5 1-23 * * ?'
+    - cron: '*/8 1-23 * * ?'
   watch:
     types: [started]
 env:
